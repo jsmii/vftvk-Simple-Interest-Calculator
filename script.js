@@ -9,7 +9,7 @@ function compute()
         document.getElementById("principal").focus();
         return false;
     } else {
-        if (principal <= 0) { //Check is a ositive number
+        if (principal <= 0) { //Check is a positive number
             alert("Enter a positive number");
             document.getElementById("principal").focus();
             return false;
